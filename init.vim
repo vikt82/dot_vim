@@ -1,17 +1,21 @@
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'scrooloose/nerdtree'
-Plug 'KKPMW/sacredforest-vim'
 Plug 'valloric/youcompleteme'
 Plug 'vim-airline/vim-airline'
 Plug 'shmargum/vim-sass-colors'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
-Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'rking/ag.vim'
+Plug 'ggreer/the_silver_searcher'
+
+" ========= Color Scheme =========
+Plug 'morhetz/gruvbox'
+Plug 'KKPMW/sacredforest-vim'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }   " do
@@ -26,7 +30,6 @@ call plug#end()
 
 " ========= Colorol Scheme Gruvbox Settings =========
 colorscheme gruvbox
-
 " g:gruvbox_contrast_dark Changes dark mode contrast. Overrides g:gruvbox_contrast option. Possible values are soft, medium and hard. default: medium
 let g:gruvbox_contrast_dark = 'soft' 
 let g:gruvbox_hls_cursor = 'orange'
