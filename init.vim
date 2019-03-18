@@ -12,6 +12,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'rking/ag.vim'
 Plug 'ggreer/the_silver_searcher'
+Plug 'ap/vim-css-color'
 
 " ========= Color Scheme =========
 Plug 'morhetz/gruvbox'
