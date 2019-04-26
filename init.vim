@@ -24,12 +24,8 @@ Plug 'mattn/emmet-vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'wavded/vim-stylus'
 Plug 'nono/jquery.vim'
-<<<<<<< HEAD
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'posva/vim-vue'
-=======
-
->>>>>>> cd92ac42b5a37107c54816155cb6a88cf3c1ec1c
 
 " ========= Python =========
 Plug 'nvie/vim-flake8'
